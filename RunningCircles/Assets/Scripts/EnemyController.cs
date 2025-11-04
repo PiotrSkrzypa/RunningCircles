@@ -5,9 +5,6 @@ public class EnemyController : MonoBehaviour
 {
     [SerializeField] float speed = 3f;
 
-    [Tooltip("How much randomness is applied to movement (0 = none, 1 = very chaotic)")]
-    [SerializeField][Range(0f, 1f)] float _randomnessIntensity = 0.5f;
-
     [Tooltip("How often (in seconds) the random direction changes")]
     [SerializeField] float _randomChangeInterval = 1.5f;
 
